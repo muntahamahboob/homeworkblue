@@ -1,0 +1,451 @@
+body{
+	margin:0;
+	padding:0;
+}
+/*header start*/
+
+
+header{
+	padding: 10px 0;
+	background-color:#121B2A;
+
+}
+.wapper {
+	overflow: hidden;
+	margin:0 auto;
+	width: 80%;
+	
+}
+
+.logo {
+	width:22%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+
+.menu {
+	margin-top: 30px;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	    float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size:13px;
+	color: white;
+	text-transform: uppercase;
+	    text-decoration: none;
+    	padding: 24.25px;
+   	 	display: inline-block;
+   	 	transition: .3s;
+}
+
+
+.menu ul li a:hover{
+	color:#0078BD;
+}
+
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.b_content{
+	width: 50%;
+	margin-top:268px;
+	margin-bottom:62px;
+}
+.b_content h1{
+	font-family:sans-serif; 
+	font-weight:400;
+	font-size:33px; 
+	color:white;
+	text-transform:capitalize;
+	margin:0;
+}
+.b_content h2{
+	font-family:sans-serif; 
+	font-weight:600;
+	font-size:41px;
+	color:#0078BD;
+	text-transform:capitalize; 
+	margin:0;
+}
+
+.b_content p{
+	font-family:sans-serif; 
+	color: white;
+	margin-top: 38px;
+	margin-bottom: 1px;
+	line-height:25px;
+	
+	
+}
+.b_content button{
+
+	width: 220px;
+	height: 54px;
+	margin-top: 20px;
+	font-family:sans-serif; 
+	font-weight:600;
+	font-size:20px;
+	color:#000000;
+	text-transform:uppercase;
+	border-radius: 3px;
+	border: 0;
+	background-color: white;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.b_content button:hover{
+	color: #0078BD;
+
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+}
+.single{
+	width: 30%;
+	padding: 55px 15px 48px;
+	float: left;
+}
+.top{
+	overflow: hidden;
+}
+.t_image{
+	width: 28%;
+	float: left;
+}
+.t_image img{
+	    width: 77%;
+}
+.t_text{
+	width: 60%;
+	float: left;
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-weight:400;
+	font-size:24px;
+	color:white;
+}
+.t_text h3{
+	font-family: sans-serif;
+	font-size:24px;;
+	color:#0476BD;
+	margin-top: -20px;
+    margin-bottom: 17px;
+
+}
+.bottom{
+
+}
+.bottom p{
+		font-family: sans-serif;
+		color:white;
+		margin: 0;
+		line-height: 25px;
+}
+
+.single{
+	width: 30%;
+	padding: 55px 15px 48px;
+	float: left;
+}
+.top{
+	overflow: hidden;
+}
+.t_image{
+	width: 28%;
+	float: left;
+}
+.t_image img{
+	    width: 77%;
+}
+.t_text{
+	width: 60%;
+	float: left;
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-weight:400;
+	font-size:24px;
+	color:white;
+}
+.t_text h3{
+	font-family: sans-serif;
+	font-size:24px;;
+	color:#0476BD;
+	margin-top: -20px;
+    margin-bottom: 17px;
+
+}
+.bottom{
+
+}
+.bottom p{
+		font-family: sans-serif;
+		color:white;
+		margin: 0;
+		line-height: 25px;
+}
+.single{
+	width: 30%;
+	padding: 55px 15px 48px;
+	float: left;
+}
+.top{
+	overflow: hidden;
+}
+.t_image{
+	width: 28%;
+	float: left;
+}
+.t_image img{
+	    width: 72%;
+}
+.t_text{
+	width: 60%;
+	float: left;
+	line-height: 0px;
+	    margin-bottom: 23px;
+
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-weight:400;
+	font-size:24px;
+	color:white;
+	display: inline-block;
+	margin-bottom: 38px;
+}
+.t_text h3{
+	font-family: sans-serif;
+	font-size:22px;
+	color:#0476BD;
+	margin-top: -20px;
+    margin-bottom: 17px;
+    display: inline-block;
+}
+.bottom{
+
+}
+.bottom p{
+		font-family: sans-serif;
+		color:white;
+		margin: 0;
+		line-height: 25px;
+}
+/*service end*/
+/*Contact Section start*/
+.contact-section{
+	background-color: #040811;
+	
+}
+.contact-wapper{
+	margin: auto;
+	overflow: hidden;
+	width: 80%;
+}
+.single-contact{
+	 width:27%;
+	float: left;
+	overflow: hidden;
+	padding:57px 56px 4px 10px;
+}
+
+.Oceans{
+	margin-top: -23px;
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+.Oceans h1{
+	font-size:600; 				
+	font-weight:20px;
+	color: white;						
+}
+.single-contact p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+.single-contact table{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;				
+}
+.single-contact table td{
+	padding-right: 5px;
+}
+.testimonial{
+	padding: 10px 8px;
+    background: #0C1019;
+    border-radius: 8px;
+    margin-top: -29px;
+}
+
+.testimonial h1{
+	font-family: sans-serif;
+	font-size: 600;
+	color: white;
+}
+.web_link{
+	font-family: sans-serif;
+	color: white;
+}
+.web_link h3{
+	font-family: sans-serif;
+	color: white;
+	margin: 31px 0 -15px;
+}
+.link a{
+	color:	white;	
+	text-decoration: none;
+}
+.Mobile{
+	width: 44%;
+	float: left;
+	margin-top: -23px;
+	margin-left: -11px;
+}
+
+.contact{
+	width: 13%;
+	float: left;
+	margin-left: 40px;
+}
+.contact h1{
+	font-family: sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+	color: white;
+	margin-bottom: -34px;
+	margin-top: -22px;
+}
+.contact h2{
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: 600;
+	color:#0779B8;
+	margin-bottom: 45px;
+	margin-top: 32px;
+}
+.contact img{
+	    margin-top: -39px;
+    margin-bottom: 129px;
+}
+/*Contact Section end*/
+/*footer start*/
+.footer{
+	background-color: #121B2C;
+}
+
+.wapper{
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+}
+.footer_manu{
+	width: 60%;
+	float: left;
+	padding: 15px 6px 0;
+}
+.manu{}
+.manu ul{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.manu ul li{}
+.manu ul li a{
+	font-family:sans-serif;
+	text-decoration: none;
+	color: white;
+	float: left;
+	border-right: 1px solid white;
+    padding: 0 16px;
+}
+.copyright{
+	margin-top: 32px;
+    margin-left: 15px;
+    margin-bottom: 56px;
+}
+.copyright p{
+	font-family: sans-serif;
+    color: white;
+}
+.footerlogo{
+	width:35%;
+    float: left;
+    overflow: hidden;
+    padding: 24px 20px 0;
+}
+.symbian{
+		float: left;
+	    box-sizing: border-box;
+        width: 49%;
+        padding-right: 9px;
+}
+.symbian img{
+	width: 100%;
+}
+	    
+.darklogo{
+		float: left;
+	    box-sizing: border-box;
+    	width: 49%;
+    	padding-left: 10px;
+}
+
+.darklogo img{
+	    width: 100%;
+}
+
+
+
+
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
